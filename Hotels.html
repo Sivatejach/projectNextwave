@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.explore-hotel-section {
+    background-image: linear-gradient(to bottom right, #D2B48C, #F5DEB3);
+    height: 100vh;
+  
+}
+.hotels-section-heading {
+  color: #183b56;
+  font-family: "Roboto";
+  font-size: 28px;
+  font-weight: 700;
+}
+.hotel-image {
+  border-radius: 16px;
+}
+.hotel-title {
+    color:#183b56;
+  font-family: "Roboto";
+  font-size: 18px;
+  font-weight: 500;
+  margin-top: 24px;
+}
+.menu-item-link {
+  color: #d0b200;
+  font-family: "Roboto";
+  font-size: 14px;
+  font-weight: 500;
+}
+.hotel-card {
+  border-radius: 16px;
+  justify-content: space-around;
+}
+.hotel-card-styles {
+    border-radius: 16px;
+    justify-content: space-around;
+  }
+    </style>
+    </head>
+  <body>
+    <div class="explore-hotel-section pt-5 pb-5">
+      <div class="container mt-6">
+        <div class="row d-flex flex-row justify-content-center align-items-center ">
+          <div class="col-12 text-center">
+            <h1 class="hotel-section-heading">Explore Hotels</h1>
+          </div>
+          <div class="hotel-card-styles col-12 col-md-6 col-lg-3 mb-3">
+            <div class="shadow hotel-card p-3 mb-3">
+              <img src="Assets/Standard.png"
+                class="hotel-image w-100"
+              />
+              <h1 class="hotel-title">Standard</h1>
+              <a href="details.html" class="menu-item-link">
+                View All
+                <svg width="16px" height="16px" viewBox="0 0 16 16" class="bi bi-arrow-right" fill="#d0b200" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    fill-rule="evenodd"
+                    d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+                  />
+                </svg>
+              </a>
+            </div>
+          </div>
+          <div class="hotel-card-styles col-12 col-md-6 col-lg-3 mb-3">
+            <div class="hotel-card shadow p-3 mb-3">
+              <img
+                src="Assets/Premium.png"
+                class="hotel-image w-100"
+              />
+              <h1 class="hotel-title">Premimum</h1>
+              <a href="details.html" class="menu-item-link">
+                View All
+                <svg width="16px" height="16px" viewBox="0 0 16 16" class="bi bi-arrow-right" fill="#d0b200" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    fill-rule="evenodd"
+                    d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+                  />
+                </svg>
+              </a>
+            </div>
+          </div>
+          <div class="hotel-card-styles col-12 col-md-6  col-lg-3 ">
+            <div class="hotel-card shadow p-3 mb-3">
+              <img
+                src="Assets/relax-area-resort.png"
+                class="hotel-image w-100"
+              />
+              <h1 class="hotel-title">Luxury</h1>
+              <a href="details.html" class="menu-item-link">
+                View All
+                <svg width="16px" height="16px" viewBox="0 0 16 16" class="bi bi-arrow-right" fill="#d0b200" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    fill-rule="evenodd"
+                    d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+                  />
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

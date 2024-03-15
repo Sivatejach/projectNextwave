@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+.navbar-styles{
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;    
+}
+.navbar-img-styles{
+    height: 40px;
+    background-color: transparent;
+}
+.home-info-text{
+    font-weight: bold;
+    font-family:"Roboto";
+    color:khaki;    
+}
+.home-para{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: aliceblue;
+    font-size: 25px;
+}
+.offers {
+    color: #323f4b;
+    font-style:italic;
+    font-weight: bold;
+  }
+.book-button {
+    color: white;
+    background-color: #88663e;
+    width: 130px;
+    padding: 15px;
+    height: 45px;
+    border-width: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-radius: 8px;
+    margin-right: 10px;
+  }
+.bg-container{
+    background-image: url('Assets/homepage-bg.png');
+    background-size: cover;
+    height: 100vh;
+    font-family:'Times New Roman', Times, serif
+
+}
+

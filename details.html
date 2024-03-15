@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous"/>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/ac42c3b1f7.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="details.css"/>
+</head>
+<body>
+<div class="container">
+    <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone" required>
+        
+        <label for="location">Location:</label>
+        <select id="location" name="location">
+            <option value="Delhi">Delhi</option>
+            <option value="Mumbai">Mumbai</option>
+            <option value="Kolkata">Kolkata</option>
+            <option value="Chennai">Chennai</option>
+            <!-- Add more cities here -->
+        </select>
+        
+        <label for="package">Travel Package:</label>
+        <select id="package" name="package">
+            <option value="Standard">Standard</option>
+            <option value="Premium">Premium</option>
+            <option value="Luxury">Luxury</option>
+            <!-- Add more packages here -->
+        </select>
+        
+        <label for="hotel">Hotel:</label>
+        <select id="hotel" name="hotel">
+            <option value="Hotel A">Hotel A</option>
+            <option value="Hotel B">Hotel B</option>
+            <option value="Hotel C">Hotel C</option>
+        </select>
+         
+        <label for="flight">Flight Booking:</label>
+        <select id="flight" name="flight">
+            <option value="Economy">Economy</option>
+            <option value="Business">Business</option>
+            <option value="First Class">First Class</option>
+        </select>
+        <div class="button-container">
+          <button class="button-styles">Submit</button>
+        </div>
+    </form>
+</div>
+</body>
+</html>
